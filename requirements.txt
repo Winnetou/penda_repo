@@ -1,0 +1,156 @@
+# requirements.txt
+# Intentionally outdated pins across a wide range of common packages.
+# Purpose: exercise Dependabot's version-update PRs (one per package/version bump).
+# Do NOT install this into a real project environment as-is.
+
+# --- Web frameworks ---
+django==3.2.0
+flask==1.1.2
+fastapi==0.68.0
+starlette==0.14.2
+tornado==6.0.4
+bottle==0.12.18
+pyramid==1.10.4
+sanic==20.3.0
+aiohttp==3.7.4
+gunicorn==20.0.4
+uvicorn==0.13.4
+werkzeug==1.0.1
+jinja2==2.11.2
+
+# --- HTTP / networking ---
+requests==2.24.0
+urllib3==1.25.9
+httpx==0.16.1
+httplib2==0.18.1
+websockets==8.1
+paramiko==2.7.1
+requests-oauthlib==1.3.0
+
+# --- Data / scientific ---
+numpy==1.19.0
+pandas==1.1.0
+scipy==1.5.0
+scikit-learn==0.23.1
+matplotlib==3.2.2
+seaborn==0.10.1
+statsmodels==0.11.1
+sympy==1.6
+
+# --- Database / ORM ---
+sqlalchemy==1.3.18
+psycopg2==2.8.5
+pymongo==3.10.1
+redis==3.5.3
+alembic==1.4.2
+peewee==3.13.3
+mysqlclient==1.4.6
+
+# --- Serialization / validation ---
+pydantic==1.6.1
+marshmallow==3.7.1
+jsonschema==3.2.0
+cerberus==1.3.2
+attrs==19.3.0
+dataclasses-json==0.5.2
+
+# --- CLI / config ---
+click==7.1.2
+argparse==1.4.0
+pyyaml==5.3.1
+python-dotenv==0.14.0
+configparser==4.0.2
+toml==0.10.1
+
+# --- Async / task queues ---
+celery==4.4.6
+kombu==4.6.11
+billiard==3.6.3.0
+rq==1.4.3
+asyncio==3.4.3
+
+# --- Testing ---
+pytest==5.4.3
+pytest-cov==2.10.0
+pytest-mock==3.1.1
+tox==3.16.1
+nose==1.3.7
+mock==4.0.2
+coverage==5.2
+
+# --- Linting / formatting ---
+flake8==3.8.3
+pylint==2.5.3
+black==19.10b0
+isort==4.3.21
+mypy==0.782
+bandit==1.6.2
+
+# --- Security / crypto ---
+cryptography==2.9.2
+pyjwt==1.7.1
+passlib==1.7.2
+bcrypt==3.1.7
+pyopenssl==19.1.0
+
+# --- Cloud SDKs ---
+boto3==1.14.20
+botocore==1.17.20
+google-cloud-storage==1.30.0
+google-api-python-client==1.10.0
+azure-storage-blob==12.3.2
+
+# --- Image / media processing ---
+pillow==7.2.0
+opencv-python==4.3.0.36
+imageio==2.9.0
+
+# --- Templating / docs ---
+markdown==3.2.2
+docutils==0.16
+sphinx==3.1.2
+mkdocs==1.1.2
+
+# --- Date / time ---
+python-dateutil==2.8.1
+pytz==2020.1
+arrow==0.16.0
+
+# --- Misc utilities ---
+six==1.15.0
+setuptools==49.2.0
+wheel==0.34.2
+packaging==20.4
+tqdm==4.47.0
+colorama==0.4.3
+tabulate==0.8.7
+humanize==2.5.0
+faker==4.1.1
+
+# --- Excel / spreadsheets ---
+openpyxl==3.0.4
+xlrd==1.2.0
+xlsxwriter==1.2.9
+
+# --- Message queues / brokers ---
+pika==1.1.0
+confluent-kafka==1.4.2
+
+# --- Web scraping ---
+beautifulsoup4==4.9.1
+lxml==4.5.2
+scrapy==2.2.1
+selenium==3.141.0
+
+# --- Machine learning / deep learning ---
+tensorflow==2.2.0
+torch==1.5.1
+keras==2.3.1
+xgboost==1.1.1
+lightgbm==2.3.1
+
+# --- API clients ---
+stripe==2.48.0
+twilio==6.42.2
+slack-sdk==2.5.0
+sendgrid==6.4.4
