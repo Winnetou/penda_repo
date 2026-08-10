@@ -10,7 +10,8 @@ updates:
      - "/"
      - "/tests"
     schedule:
-      interval: "daily"
+      interval: "cron"
+      cronjob: "15 15 * * *"
     groups:
       python-dependencies:
         patterns:
