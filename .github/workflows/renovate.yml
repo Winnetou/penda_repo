@@ -2,7 +2,7 @@ name: Renovate
 
 on:
   schedule:
-    - cron: "57 * * * *"
+    - cron: "5 19 * * *"
   workflow_dispatch: {} # allows manual triggering from the Actions tab
 
 jobs:
